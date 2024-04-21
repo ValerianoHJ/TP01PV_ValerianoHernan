@@ -17,6 +17,7 @@ public class Main {
 					band=true;
 				}
 				else {
+					System.out.println("Ingrese un valor entre (3-10)");
 					band=false;
 				}	
 		}while(!band);
